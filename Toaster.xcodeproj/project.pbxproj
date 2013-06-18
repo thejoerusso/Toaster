@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B19B77715F278410082F16A /* disabled-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B19B77615F278410082F16A /* disabled-button.png */; };
+		2B19B77A15F27CC80082F16A /* document.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B19B77915F27CC80082F16A /* document.png */; };
+		2B19B77E15F27CEE0082F16A /* thumbnails-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B19B77D15F27CEE0082F16A /* thumbnails-1.png */; };
+		2B19B78015F27E690082F16A /* site-map.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B19B77F15F27E690082F16A /* site-map.png */; };
+		2B21D692160F6AEC00C2C776 /* RoutingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B21D691160F6AEC00C2C776 /* RoutingViewController.m */; };
+		2B30D2EE167FE68B00087870 /* ManagementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7D926C167FC3B60009966B /* ManagementViewController.m */; };
+		2B445AA8160E06B100FB9090 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B445AA7160E06B100FB9090 /* Utils.m */; };
+		2B4871EF15F26BF000387AAA /* 95-equalizer.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4871EE15F26BF000387AAA /* 95-equalizer.png */; };
+		2B4871F215F26D5B00387AAA /* io.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4871F115F26D5B00387AAA /* io.png */; };
+		2B4871F615F2717A00387AAA /* busses.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B4871F515F2717A00387AAA /* busses.png */; };
+		2B55BD6815E513B9002676D2 /* DataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B55BD6715E513B9002676D2 /* DataClass.m */; };
+		2B65363215BB27BC0066CEEA /* BusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B65363115BB27BC0066CEEA /* BusViewController.m */; };
+		2B65363315BB27BC0066CEEA /* BusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B65363115BB27BC0066CEEA /* BusViewController.m */; };
+		2B65363615BB27D10066CEEA /* ChannelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B65363515BB27D10066CEEA /* ChannelViewController.m */; };
+		2B65363715BB27D10066CEEA /* ChannelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B65363515BB27D10066CEEA /* ChannelViewController.m */; };
+		2B65363A15BB27E40066CEEA /* IOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B65363915BB27E40066CEEA /* IOViewController.m */; };
+		2B65363B15BB27E40066CEEA /* IOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B65363915BB27E40066CEEA /* IOViewController.m */; };
+		2B65363E15BB27F50066CEEA /* FileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B65363D15BB27F50066CEEA /* FileViewController.m */; };
+		2B65363F15BB27F50066CEEA /* FileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B65363D15BB27F50066CEEA /* FileViewController.m */; };
+		2B7D926D167FC3B60009966B /* ManagementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7D926C167FC3B60009966B /* ManagementViewController.m */; };
+		2BB74D98162E1D2B00DF4498 /* libRscMgrUniv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BB74D97162E1D2B00DF4498 /* libRscMgrUniv.a */; };
+		2BD7026B15DA89E500AFE29B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD7026A15DA89E500AFE29B /* CoreData.framework */; };
+		2BD7026F15DA8A7100AFE29B /* Data Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7026D15DA8A7100AFE29B /* Data Model.xcdatamodeld */; };
+		2BD7027015DA8A7100AFE29B /* Data Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7026D15DA8A7100AFE29B /* Data Model.xcdatamodeld */; };
+		2BD7027315DA8FC000AFE29B /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7027215DA8FC000AFE29B /* Scene.m */; };
+		2BD7027415DA8FC000AFE29B /* Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7027215DA8FC000AFE29B /* Scene.m */; };
+		2BD7027715DA8FC000AFE29B /* Output.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7027615DA8FC000AFE29B /* Output.m */; };
+		2BD7027815DA8FC000AFE29B /* Output.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7027615DA8FC000AFE29B /* Output.m */; };
+		2BD7027B15DA8FC000AFE29B /* Bus.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7027A15DA8FC000AFE29B /* Bus.m */; };
+		2BD7027C15DA8FC000AFE29B /* Bus.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7027A15DA8FC000AFE29B /* Bus.m */; };
+		2BD7027F15DA8FC000AFE29B /* Channel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7027E15DA8FC000AFE29B /* Channel.m */; };
+		2BD7028015DA8FC000AFE29B /* Channel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD7027E15DA8FC000AFE29B /* Channel.m */; };
+		2BD8610615F292AC000D23DD /* default-arrow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BD8610515F292AC000D23DD /* default-arrow-right.png */; };
+		2BE5937815B2EDC900C737D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE5937715B2EDC900C737D0 /* UIKit.framework */; };
+		2BE5937A15B2EDC900C737D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE5937915B2EDC900C737D0 /* Foundation.framework */; };
+		2BE5937C15B2EDC900C737D0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE5937B15B2EDC900C737D0 /* CoreGraphics.framework */; };
+		2BE5938215B2EDC900C737D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BE5938015B2EDC900C737D0 /* InfoPlist.strings */; };
+		2BE5938415B2EDC900C737D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE5938315B2EDC900C737D0 /* main.m */; };
+		2BE5938815B2EDC900C737D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE5938715B2EDC900C737D0 /* AppDelegate.m */; };
+		2BE5938E15B2EDC900C737D0 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2BE5938C15B2EDC900C737D0 /* MainStoryboard_iPad.storyboard */; };
+		2BE5939915B2EDC900C737D0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE5939815B2EDC900C737D0 /* SenTestingKit.framework */; };
+		2BE5939A15B2EDC900C737D0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE5937715B2EDC900C737D0 /* UIKit.framework */; };
+		2BE5939B15B2EDC900C737D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE5937915B2EDC900C737D0 /* Foundation.framework */; };
+		2BE593A315B2EDC900C737D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BE593A115B2EDC900C737D0 /* InfoPlist.strings */; };
+		2BE593A615B2EDC900C737D0 /* ToasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BE593A515B2EDC900C737D0 /* ToasterTests.m */; };
+		2BE593B015B2EE7800C737D0 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BE593AF15B2EE7800C737D0 /* Default-Landscape~ipad.png */; };
+		2BE593B215B2EE8000C737D0 /* api-rough-logo-app-icon-72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BE593B115B2EE8000C737D0 /* api-rough-logo-app-icon-72x72.png */; };
+		2BE593B915B328C200C737D0 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BE593B815B328C200C737D0 /* ExternalAccessory.framework */; };
+		2BF5711D15DC3810002F13F0 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF5711C15DC3810002F13F0 /* MasterViewController.m */; };
+		2BF5711E15DC3810002F13F0 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF5711C15DC3810002F13F0 /* MasterViewController.m */; };
+		2BFE350315EEC2CC00C4FEC1 /* black-arrow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BFE350215EEC2CC00C4FEC1 /* black-arrow-right.png */; };
+		2BFFDFBC15EF97B200A860CD /* selected-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BFFDFBB15EF97B200A860CD /* selected-button.png */; };
+		2BFFDFBF15EF9DCA00A860CD /* unselected-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BFFDFBE15EF9DCA00A860CD /* unselected-button.png */; };
+		2BFFDFC115EFA18A00A860CD /* selected-arrow-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 2BFFDFC015EFA18A00A860CD /* selected-arrow-right.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BE5939C15B2EDC900C737D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BE5936A15B2EDC900C737D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BE5937215B2EDC900C737D0;
+			remoteInfo = Toaster;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B19B77615F278410082F16A /* disabled-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "disabled-button.png"; sourceTree = "<group>"; };
+		2B19B77915F27CC80082F16A /* document.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = document.png; sourceTree = "<group>"; };
+		2B19B77D15F27CEE0082F16A /* thumbnails-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnails-1.png"; sourceTree = "<group>"; };
+		2B19B77F15F27E690082F16A /* site-map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "site-map.png"; sourceTree = "<group>"; };
+		2B21D690160F6AEC00C2C776 /* RoutingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoutingViewController.h; sourceTree = "<group>"; };
+		2B21D691160F6AEC00C2C776 /* RoutingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoutingViewController.m; sourceTree = "<group>"; };
+		2B445AA6160E06B100FB9090 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		2B445AA7160E06B100FB9090 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		2B4871EE15F26BF000387AAA /* 95-equalizer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "95-equalizer.png"; sourceTree = "<group>"; };
+		2B4871F115F26D5B00387AAA /* io.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = io.png; sourceTree = "<group>"; };
+		2B4871F515F2717A00387AAA /* busses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = busses.png; sourceTree = "<group>"; };
+		2B55BD6615E513B9002676D2 /* DataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataClass.h; sourceTree = "<group>"; };
+		2B55BD6715E513B9002676D2 /* DataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataClass.m; sourceTree = "<group>"; };
+		2B65363015BB27BC0066CEEA /* BusViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusViewController.h; sourceTree = "<group>"; };
+		2B65363115BB27BC0066CEEA /* BusViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusViewController.m; sourceTree = "<group>"; };
+		2B65363415BB27D10066CEEA /* ChannelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChannelViewController.h; sourceTree = "<group>"; };
+		2B65363515BB27D10066CEEA /* ChannelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChannelViewController.m; sourceTree = "<group>"; };
+		2B65363815BB27E40066CEEA /* IOViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOViewController.h; sourceTree = "<group>"; };
+		2B65363915BB27E40066CEEA /* IOViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IOViewController.m; sourceTree = "<group>"; };
+		2B65363C15BB27F50066CEEA /* FileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileViewController.h; sourceTree = "<group>"; };
+		2B65363D15BB27F50066CEEA /* FileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileViewController.m; sourceTree = "<group>"; };
+		2B7D926B167FC3B60009966B /* ManagementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagementViewController.h; sourceTree = "<group>"; };
+		2B7D926C167FC3B60009966B /* ManagementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagementViewController.m; sourceTree = "<group>"; };
+		2BB74D97162E1D2B00DF4498 /* libRscMgrUniv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRscMgrUniv.a; sourceTree = "<group>"; };
+		2BB74D99162E1D4400DF4498 /* redparkSerial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = redparkSerial.h; sourceTree = "<group>"; };
+		2BB74D9A162E1D4400DF4498 /* RscMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RscMgr.h; sourceTree = "<group>"; };
+		2BD7026A15DA89E500AFE29B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2BD7026E15DA8A7100AFE29B /* Data Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Data Model.xcdatamodel"; sourceTree = "<group>"; };
+		2BD7027115DA8FC000AFE29B /* Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scene.h; sourceTree = "<group>"; };
+		2BD7027215DA8FC000AFE29B /* Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Scene.m; sourceTree = "<group>"; };
+		2BD7027515DA8FC000AFE29B /* Output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Output.h; sourceTree = "<group>"; };
+		2BD7027615DA8FC000AFE29B /* Output.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Output.m; sourceTree = "<group>"; };
+		2BD7027915DA8FC000AFE29B /* Bus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bus.h; sourceTree = "<group>"; };
+		2BD7027A15DA8FC000AFE29B /* Bus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bus.m; sourceTree = "<group>"; };
+		2BD7027D15DA8FC000AFE29B /* Channel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Channel.h; sourceTree = "<group>"; };
+		2BD7027E15DA8FC000AFE29B /* Channel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Channel.m; sourceTree = "<group>"; };
+		2BD8610515F292AC000D23DD /* default-arrow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-arrow-right.png"; sourceTree = "<group>"; };
+		2BE5937315B2EDC900C737D0 /* Toaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Toaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE5937715B2EDC900C737D0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2BE5937915B2EDC900C737D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2BE5937B15B2EDC900C737D0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2BE5937F15B2EDC900C737D0 /* Toaster-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Toaster-Info.plist"; sourceTree = "<group>"; };
+		2BE5938115B2EDC900C737D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2BE5938315B2EDC900C737D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BE5938515B2EDC900C737D0 /* Toaster-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Toaster-Prefix.pch"; sourceTree = "<group>"; };
+		2BE5938615B2EDC900C737D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BE5938715B2EDC900C737D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BE5938D15B2EDC900C737D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		2BE5939715B2EDC900C737D0 /* ToasterTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToasterTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BE5939815B2EDC900C737D0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		2BE593A015B2EDC900C737D0 /* ToasterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToasterTests-Info.plist"; sourceTree = "<group>"; };
+		2BE593A215B2EDC900C737D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2BE593A415B2EDC900C737D0 /* ToasterTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ToasterTests.h; sourceTree = "<group>"; };
+		2BE593A515B2EDC900C737D0 /* ToasterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToasterTests.m; sourceTree = "<group>"; };
+		2BE593AF15B2EE7800C737D0 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		2BE593B115B2EE8000C737D0 /* api-rough-logo-app-icon-72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "api-rough-logo-app-icon-72x72.png"; sourceTree = "<group>"; };
+		2BE593B815B328C200C737D0 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		2BF5711B15DC3810002F13F0 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		2BF5711C15DC3810002F13F0 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		2BFE350215EEC2CC00C4FEC1 /* black-arrow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black-arrow-right.png"; sourceTree = "<group>"; };
+		2BFFDFBB15EF97B200A860CD /* selected-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected-button.png"; sourceTree = "<group>"; };
+		2BFFDFBE15EF9DCA00A860CD /* unselected-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "unselected-button.png"; sourceTree = "<group>"; };
+		2BFFDFC015EFA18A00A860CD /* selected-arrow-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected-arrow-right.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BE5937015B2EDC900C737D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD7026B15DA89E500AFE29B /* CoreData.framework in Frameworks */,
+				2BE593B915B328C200C737D0 /* ExternalAccessory.framework in Frameworks */,
+				2BE5937815B2EDC900C737D0 /* UIKit.framework in Frameworks */,
+				2BE5937A15B2EDC900C737D0 /* Foundation.framework in Frameworks */,
+				2BE5937C15B2EDC900C737D0 /* CoreGraphics.framework in Frameworks */,
+				2BB74D98162E1D2B00DF4498 /* libRscMgrUniv.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE5939315B2EDC900C737D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE5939915B2EDC900C737D0 /* SenTestingKit.framework in Frameworks */,
+				2BE5939A15B2EDC900C737D0 /* UIKit.framework in Frameworks */,
+				2BE5939B15B2EDC900C737D0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BE5936815B2EDC900C737D0 = {
+			isa = PBXGroup;
+			children = (
+				2B19B77615F278410082F16A /* disabled-button.png */,
+				2B4871EE15F26BF000387AAA /* 95-equalizer.png */,
+				2B4871F515F2717A00387AAA /* busses.png */,
+				2B4871F115F26D5B00387AAA /* io.png */,
+				2B19B77915F27CC80082F16A /* document.png */,
+				2BD8610515F292AC000D23DD /* default-arrow-right.png */,
+				2B19B77D15F27CEE0082F16A /* thumbnails-1.png */,
+				2BB74D97162E1D2B00DF4498 /* libRscMgrUniv.a */,
+				2B19B77F15F27E690082F16A /* site-map.png */,
+				2BFE350215EEC2CC00C4FEC1 /* black-arrow-right.png */,
+				2BFFDFBB15EF97B200A860CD /* selected-button.png */,
+				2BFFDFC015EFA18A00A860CD /* selected-arrow-right.png */,
+				2BFFDFBE15EF9DCA00A860CD /* unselected-button.png */,
+				2BB74D99162E1D4400DF4498 /* redparkSerial.h */,
+				2BB74D9A162E1D4400DF4498 /* RscMgr.h */,
+				2BE593B115B2EE8000C737D0 /* api-rough-logo-app-icon-72x72.png */,
+				2BE593AF15B2EE7800C737D0 /* Default-Landscape~ipad.png */,
+				2BE5937D15B2EDC900C737D0 /* Toaster */,
+				2BE5939E15B2EDC900C737D0 /* ToasterTests */,
+				2BE5937615B2EDC900C737D0 /* Frameworks */,
+				2BE5937415B2EDC900C737D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BE5937415B2EDC900C737D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BE5937315B2EDC900C737D0 /* Toaster.app */,
+				2BE5939715B2EDC900C737D0 /* ToasterTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BE5937615B2EDC900C737D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BD7026A15DA89E500AFE29B /* CoreData.framework */,
+				2BE593B815B328C200C737D0 /* ExternalAccessory.framework */,
+				2BE5937715B2EDC900C737D0 /* UIKit.framework */,
+				2BE5937915B2EDC900C737D0 /* Foundation.framework */,
+				2BE5937B15B2EDC900C737D0 /* CoreGraphics.framework */,
+				2BE5939815B2EDC900C737D0 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BE5937D15B2EDC900C737D0 /* Toaster */ = {
+			isa = PBXGroup;
+			children = (
+				2B65363015BB27BC0066CEEA /* BusViewController.h */,
+				2B65363115BB27BC0066CEEA /* BusViewController.m */,
+				2B65363415BB27D10066CEEA /* ChannelViewController.h */,
+				2B65363515BB27D10066CEEA /* ChannelViewController.m */,
+				2B65363815BB27E40066CEEA /* IOViewController.h */,
+				2B65363915BB27E40066CEEA /* IOViewController.m */,
+				2B21D690160F6AEC00C2C776 /* RoutingViewController.h */,
+				2B21D691160F6AEC00C2C776 /* RoutingViewController.m */,
+				2B7D926B167FC3B60009966B /* ManagementViewController.h */,
+				2B7D926C167FC3B60009966B /* ManagementViewController.m */,
+				2B65363C15BB27F50066CEEA /* FileViewController.h */,
+				2B65363D15BB27F50066CEEA /* FileViewController.m */,
+				2BE5938615B2EDC900C737D0 /* AppDelegate.h */,
+				2BE5938715B2EDC900C737D0 /* AppDelegate.m */,
+				2BE5938C15B2EDC900C737D0 /* MainStoryboard_iPad.storyboard */,
+				2BF5711B15DC3810002F13F0 /* MasterViewController.h */,
+				2BF5711C15DC3810002F13F0 /* MasterViewController.m */,
+				2B445AA6160E06B100FB9090 /* Utils.h */,
+				2B445AA7160E06B100FB9090 /* Utils.m */,
+				2BE5937E15B2EDC900C737D0 /* Supporting Files */,
+			);
+			path = Toaster;
+			sourceTree = "<group>";
+		};
+		2BE5937E15B2EDC900C737D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B55BD6615E513B9002676D2 /* DataClass.h */,
+				2B55BD6715E513B9002676D2 /* DataClass.m */,
+				2BD7026D15DA8A7100AFE29B /* Data Model.xcdatamodeld */,
+				2BD7027D15DA8FC000AFE29B /* Channel.h */,
+				2BD7027E15DA8FC000AFE29B /* Channel.m */,
+				2BD7027915DA8FC000AFE29B /* Bus.h */,
+				2BD7027A15DA8FC000AFE29B /* Bus.m */,
+				2BD7027515DA8FC000AFE29B /* Output.h */,
+				2BD7027615DA8FC000AFE29B /* Output.m */,
+				2BD7027115DA8FC000AFE29B /* Scene.h */,
+				2BD7027215DA8FC000AFE29B /* Scene.m */,
+				2BE5937F15B2EDC900C737D0 /* Toaster-Info.plist */,
+				2BE5938015B2EDC900C737D0 /* InfoPlist.strings */,
+				2BE5938315B2EDC900C737D0 /* main.m */,
+				2BE5938515B2EDC900C737D0 /* Toaster-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BE5939E15B2EDC900C737D0 /* ToasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BE593A415B2EDC900C737D0 /* ToasterTests.h */,
+				2BE593A515B2EDC900C737D0 /* ToasterTests.m */,
+				2BE5939F15B2EDC900C737D0 /* Supporting Files */,
+			);
+			path = ToasterTests;
+			sourceTree = "<group>";
+		};
+		2BE5939F15B2EDC900C737D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BE593A015B2EDC900C737D0 /* ToasterTests-Info.plist */,
+				2BE593A115B2EDC900C737D0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BE5937215B2EDC900C737D0 /* Toaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE593A915B2EDC900C737D0 /* Build configuration list for PBXNativeTarget "Toaster" */;
+			buildPhases = (
+				2BE5936F15B2EDC900C737D0 /* Sources */,
+				2BE5937015B2EDC900C737D0 /* Frameworks */,
+				2BE5937115B2EDC900C737D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Toaster;
+			productName = Toaster;
+			productReference = 2BE5937315B2EDC900C737D0 /* Toaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BE5939615B2EDC900C737D0 /* ToasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BE593AC15B2EDC900C737D0 /* Build configuration list for PBXNativeTarget "ToasterTests" */;
+			buildPhases = (
+				2BE5939215B2EDC900C737D0 /* Sources */,
+				2BE5939315B2EDC900C737D0 /* Frameworks */,
+				2BE5939415B2EDC900C737D0 /* Resources */,
+				2BE5939515B2EDC900C737D0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BE5939D15B2EDC900C737D0 /* PBXTargetDependency */,
+			);
+			name = ToasterTests;
+			productName = ToasterTests;
+			productReference = 2BE5939715B2EDC900C737D0 /* ToasterTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BE5936A15B2EDC900C737D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Downtown Music Labs";
+			};
+			buildConfigurationList = 2BE5936D15B2EDC900C737D0 /* Build configuration list for PBXProject "Toaster" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2BE5936815B2EDC900C737D0;
+			productRefGroup = 2BE5937415B2EDC900C737D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BE5937215B2EDC900C737D0 /* Toaster */,
+				2BE5939615B2EDC900C737D0 /* ToasterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BE5937115B2EDC900C737D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE5938215B2EDC900C737D0 /* InfoPlist.strings in Resources */,
+				2BE5938E15B2EDC900C737D0 /* MainStoryboard_iPad.storyboard in Resources */,
+				2BE593B015B2EE7800C737D0 /* Default-Landscape~ipad.png in Resources */,
+				2BE593B215B2EE8000C737D0 /* api-rough-logo-app-icon-72x72.png in Resources */,
+				2BFE350315EEC2CC00C4FEC1 /* black-arrow-right.png in Resources */,
+				2BFFDFBC15EF97B200A860CD /* selected-button.png in Resources */,
+				2BFFDFBF15EF9DCA00A860CD /* unselected-button.png in Resources */,
+				2BFFDFC115EFA18A00A860CD /* selected-arrow-right.png in Resources */,
+				2B4871EF15F26BF000387AAA /* 95-equalizer.png in Resources */,
+				2B4871F215F26D5B00387AAA /* io.png in Resources */,
+				2B4871F615F2717A00387AAA /* busses.png in Resources */,
+				2B19B77715F278410082F16A /* disabled-button.png in Resources */,
+				2B19B77A15F27CC80082F16A /* document.png in Resources */,
+				2B19B77E15F27CEE0082F16A /* thumbnails-1.png in Resources */,
+				2B19B78015F27E690082F16A /* site-map.png in Resources */,
+				2BD8610615F292AC000D23DD /* default-arrow-right.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE5939415B2EDC900C737D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE593A315B2EDC900C737D0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BE5939515B2EDC900C737D0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BE5936F15B2EDC900C737D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B30D2EE167FE68B00087870 /* ManagementViewController.m in Sources */,
+				2BE5938415B2EDC900C737D0 /* main.m in Sources */,
+				2BE5938815B2EDC900C737D0 /* AppDelegate.m in Sources */,
+				2B65363215BB27BC0066CEEA /* BusViewController.m in Sources */,
+				2B65363615BB27D10066CEEA /* ChannelViewController.m in Sources */,
+				2B65363A15BB27E40066CEEA /* IOViewController.m in Sources */,
+				2B65363E15BB27F50066CEEA /* FileViewController.m in Sources */,
+				2BD7026F15DA8A7100AFE29B /* Data Model.xcdatamodeld in Sources */,
+				2BD7027315DA8FC000AFE29B /* Scene.m in Sources */,
+				2BD7027715DA8FC000AFE29B /* Output.m in Sources */,
+				2BD7027B15DA8FC000AFE29B /* Bus.m in Sources */,
+				2BD7027F15DA8FC000AFE29B /* Channel.m in Sources */,
+				2BF5711D15DC3810002F13F0 /* MasterViewController.m in Sources */,
+				2B55BD6815E513B9002676D2 /* DataClass.m in Sources */,
+				2B445AA8160E06B100FB9090 /* Utils.m in Sources */,
+				2B21D692160F6AEC00C2C776 /* RoutingViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE5939215B2EDC900C737D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BE593A615B2EDC900C737D0 /* ToasterTests.m in Sources */,
+				2B65363315BB27BC0066CEEA /* BusViewController.m in Sources */,
+				2B65363715BB27D10066CEEA /* ChannelViewController.m in Sources */,
+				2B65363B15BB27E40066CEEA /* IOViewController.m in Sources */,
+				2B65363F15BB27F50066CEEA /* FileViewController.m in Sources */,
+				2BD7027015DA8A7100AFE29B /* Data Model.xcdatamodeld in Sources */,
+				2BD7027415DA8FC000AFE29B /* Scene.m in Sources */,
+				2BD7027815DA8FC000AFE29B /* Output.m in Sources */,
+				2BD7027C15DA8FC000AFE29B /* Bus.m in Sources */,
+				2BD7028015DA8FC000AFE29B /* Channel.m in Sources */,
+				2BF5711E15DC3810002F13F0 /* MasterViewController.m in Sources */,
+				2B7D926D167FC3B60009966B /* ManagementViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BE5939D15B2EDC900C737D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BE5937215B2EDC900C737D0 /* Toaster */;
+			targetProxy = 2BE5939C15B2EDC900C737D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BE5938015B2EDC900C737D0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BE5938115B2EDC900C737D0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2BE5938C15B2EDC900C737D0 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BE5938D15B2EDC900C737D0 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		2BE593A115B2EDC900C737D0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BE593A215B2EDC900C737D0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BE593A715B2EDC900C737D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SHARED_PRECOMPS_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = armv7;
+			};
+			name = Debug;
+		};
+		2BE593A815B2EDC900C737D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Joseph Russo";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "3614DA3C-7C82-4B54-BD8B-6D35A5873E44";
+				SDKROOT = iphoneos;
+				SHARED_PRECOMPS_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+		2BE593AA15B2EDC900C737D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ADDITIONAL_SDKS[arch=*]" = "";
+				ALTERNATE_PERMISSIONS_FILES = "";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Toaster/Toaster-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Toaster/Toaster-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Toaster;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2BE593AB15B2EDC900C737D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"ADDITIONAL_SDKS[arch=*]" = "";
+				ALTERNATE_PERMISSIONS_FILES = "";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Toaster/Toaster-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Toaster/Toaster-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = Toaster;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2BE593AD15B2EDC900C737D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Toaster.app/Toaster";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Toaster/Toaster-Prefix.pch";
+				INFOPLIST_FILE = "ToasterTests/ToasterTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = ToasterTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		2BE593AE15B2EDC900C737D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Toaster.app/Toaster";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Toaster/Toaster-Prefix.pch";
+				INFOPLIST_FILE = "ToasterTests/ToasterTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				PRODUCT_NAME = ToasterTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BE5936D15B2EDC900C737D0 /* Build configuration list for PBXProject "Toaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE593A715B2EDC900C737D0 /* Debug */,
+				2BE593A815B2EDC900C737D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE593A915B2EDC900C737D0 /* Build configuration list for PBXNativeTarget "Toaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE593AA15B2EDC900C737D0 /* Debug */,
+				2BE593AB15B2EDC900C737D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BE593AC15B2EDC900C737D0 /* Build configuration list for PBXNativeTarget "ToasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BE593AD15B2EDC900C737D0 /* Debug */,
+				2BE593AE15B2EDC900C737D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2BD7026D15DA8A7100AFE29B /* Data Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2BD7026E15DA8A7100AFE29B /* Data Model.xcdatamodel */,
+			);
+			currentVersion = 2BD7026E15DA8A7100AFE29B /* Data Model.xcdatamodel */;
+			name = "Data Model.xcdatamodeld";
+			path = "../Data Model.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2BE5936A15B2EDC900C737D0 /* Project object */;
+}
