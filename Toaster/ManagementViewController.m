@@ -28,25 +28,29 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-  
+    DataClass *dc = [DataClass getInstance];
+    [dc addObserver:self
+         forKeyPath:@"cableConnected"
+            options:NSKeyValueObservingOptionNew
+            context:NULL];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-    // toggle disconnected UILabel if cable is unplugged
-    DataClass *dc = [DataClass getInstance];
-    NSLog(@"cable Status %@", dc.cableConnected);
-    
-    if ([dc.cableConnected isEqualToString:@"TRUE"]) {
-        disconnected.text = @"Connected";
-        disconnected.textColor = [UIColor greenColor];
-    }
-    
-    else{
-        disconnected.text = @"Disconnected";
-        disconnected.textColor = [UIColor redColor];
-
-    }
+//    // toggle disconnected UILabel if cable is unplugged
+//    DataClass *dc = [DataClass getInstance];
+//    NSLog(@"cable Status %@", dc.cableConnected);
+//    
+//    if ([dc.cableConnected isEqualToString:@"TRUE"]) {
+//        disconnected.text = @"Connected";
+//        disconnected.textColor = [UIColor greenColor];
+//    }
+//    
+//    else{
+//        disconnected.text = @"Disconnected";
+//        disconnected.textColor = [UIColor redColor];
+//
+//    }
 }
 
 - (void)viewDidUnload
@@ -403,5 +407,26 @@
     Utils *utils = [Utils getInstance];
     [utils sendData];
 }
+
+-(void)observeValueForKeyPath:(NSString *)keyPath
+                     ofObject:(id)object
+                       change:(NSDictionary *)change
+                      context:(void *)context {
+    if ([keyPath isEqual: @"cableConnected"]){
+        DataClass *dc = [DataClass getInstance];
+        if ([dc.cableConnected isEqualToString:@"TRUE"]) {
+            disconnected.text = @"Connected";
+            disconnected.textColor = [UIColor greenColor];
+        }
+        
+        else{
+            disconnected.text = @"Disconnected";
+            disconnected.textColor = [UIColor redColor];
+        }
+
+    }
+}
+
+
 
 @end

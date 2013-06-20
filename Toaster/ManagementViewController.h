@@ -18,7 +18,7 @@
     IBOutlet UIButton *presetMix5;
     IBOutlet UIButton *presetMix6;
     IBOutlet UIButton *setScene;    
-    IBOutlet UILabel  *disconnected;
+    IBOutlet UILabel  *disconnected;//this is the outlet to be updated
     
 }
 

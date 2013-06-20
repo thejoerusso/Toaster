@@ -18,7 +18,7 @@
 @synthesize largeInputRouting;
 @synthesize smallOutputRoutings;
 @synthesize largeOutputRoutings;
-@synthesize cableConnected;
+@synthesize cableConnected; //this is the instance variable we want to observe
 @synthesize str;
 
 static DataClass *instance = nil;
@@ -46,10 +46,10 @@ static DataClass *instance = nil;
         smallInputRouting    = @"0";
         largeInputRouting    = @"3";
         cableConnected       = @"FALSE";
-//        NSLog(@"%@", cableConnected); //this prints OK
 
     }
     return self;
 }
+
 
 @end
