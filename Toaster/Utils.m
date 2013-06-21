@@ -217,14 +217,14 @@ static Utils *instance = nil;
     [rscMgr setBaud:28800];
 	[rscMgr open];
     DataClass *dc = [DataClass getInstance];
-    dc.cableConnected = @"TRUE";
+    dc.cableStatus = @"Connected";
     
 }
 
 - (void) cableDisconnected {
     NSLog(@"Cable disconnected");
     DataClass *dc = [DataClass getInstance];
-    dc.cableConnected = @"FALSE";
+    dc.cableStatus = @"Disconnected";
     
 }
 

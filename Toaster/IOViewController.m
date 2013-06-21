@@ -28,13 +28,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-
-    //TODO: NOT WORKING?
-    // toggle disconnected UILabel if cable is unplugged
-    DataClass *dc = [DataClass getInstance];
-    if ([dc.cableConnected isEqualToString:@"TRUE"]) {
-        disconnected.hidden = YES;
-    }
 }
 
 -(void)viewWillAppear:(BOOL)animated

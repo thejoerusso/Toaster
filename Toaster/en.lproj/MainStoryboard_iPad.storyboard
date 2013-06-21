@@ -2532,21 +2532,35 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Presets" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="3H1-hk-9ca">
-                                <rect key="frame" x="407" y="177" width="189" height="33"/>
+                                <rect key="frame" x="208" y="177" width="189" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Chan Displays" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="v7K-3p-HoH">
-                                <rect key="frame" x="405" y="607" width="189" height="33"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Connection Status:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="26G-VC-uf8">
+                                <rect key="frame" x="596" y="309" width="189" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Controller Status:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="1Vp-OR-cpW">
+                                <rect key="frame" x="596" y="350" width="189" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Chan Displays" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="v7K-3p-HoH">
+                                <rect key="frame" x="596" y="394" width="189" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="iQQ-eE-JAb" userLabel="28">
-                                <rect key="frame" x="506" y="239" width="89" height="80"/>
+                                <rect key="frame" x="307" y="239" width="89" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="rec 25-48" backgroundImage="unselected-button.png">
@@ -2565,7 +2579,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Z89-im-mUq" userLabel="28">
-                                <rect key="frame" x="403" y="239" width="95" height="80"/>
+                                <rect key="frame" x="204" y="239" width="95" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="rec 1-24" backgroundImage="unselected-button.png">
@@ -2584,7 +2598,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="HKJ-kr-Q1z" userLabel="28">
-                                <rect key="frame" x="506" y="327" width="90" height="80"/>
+                                <rect key="frame" x="307" y="327" width="90" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="mix 25-48" backgroundImage="unselected-button.png">
@@ -2603,7 +2617,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ZAw-2w-itI" userLabel="28">
-                                <rect key="frame" x="403" y="327" width="95" height="80"/>
+                                <rect key="frame" x="204" y="327" width="95" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="mix 1-24" backgroundImage="unselected-button.png">
@@ -2621,15 +2635,22 @@
                                     <action selector="mixPreset3" destination="Xu3-Le-C3b" eventType="touchUpInside" id="Qb4-x3-uqR"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="DISCONNECTED" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="VIs-Rs-1BX">
-                                <rect key="frame" x="421" y="54" width="161" height="37"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="N/A" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="VIs-Rs-1BX">
+                                <rect key="frame" x="793" y="307" width="161" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                <color key="textColor" red="0.86274516580000005" green="0.039215687659999998" blue="0.0" alpha="1" colorSpace="deviceRGB"/>
+                                <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="N/A" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="6YX-k9-9IX">
+                                <rect key="frame" x="793" y="348" width="161" height="37"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="bqj-Md-IkW" userLabel="8">
-                                <rect key="frame" x="403" y="503" width="192" height="40"/>
+                                <rect key="frame" x="204" y="503" width="192" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="set" backgroundImage="unselected-button.png">
@@ -2647,7 +2668,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="Zrr-Aw-uJY" userLabel="28">
-                                <rect key="frame" x="506" y="415" width="90" height="80"/>
+                                <rect key="frame" x="307" y="415" width="90" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="z 25-48" backgroundImage="unselected-button.png">
@@ -2666,7 +2687,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="H4Q-uo-hwO" userLabel="28">
-                                <rect key="frame" x="403" y="415" width="95" height="80"/>
+                                <rect key="frame" x="204" y="415" width="95" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="z 1-24" backgroundImage="unselected-button.png">
@@ -2685,7 +2706,7 @@
                                 </connections>
                             </button>
                             <switch opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" id="I8i-Ph-bUT">
-                                <rect key="frame" x="463" y="648" width="79" height="27"/>
+                                <rect key="frame" x="793" y="397" width="79" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
                                     <action selector="toggleOLEDS" destination="Xu3-Le-C3b" eventType="valueChanged" id="Fkf-L1-Dh9"/>
@@ -2703,7 +2724,7 @@
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="OLEDSwitch" destination="I8i-Ph-bUT" id="gfj-y3-wPB"/>
-                        <outlet property="disconnected" destination="VIs-Rs-1BX" id="HsS-x3-G5h"/>
+                        <outlet property="cableStatusLabel" destination="VIs-Rs-1BX" id="KRR-3i-jp9"/>
                         <outlet property="presetMix1" destination="Z89-im-mUq" id="Aba-lp-luf"/>
                         <outlet property="presetMix2" destination="iQQ-eE-JAb" id="Zaf-gP-AvJ"/>
                         <outlet property="presetMix5" destination="H4Q-uo-hwO" id="ZQg-BP-yeO"/>
@@ -2722,7 +2743,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="2133" y="1110"/>
+            <point key="canvasLocation" x="2145" y="1210"/>
         </scene>
     </scenes>
     <resources>
@@ -2736,6 +2757,165 @@
         <image name="site-map.png" width="34" height="34"/>
         <image name="unselected-button.png" width="77" height="76"/>
     </resources>
+    <classes>
+        <class className="BusViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/BusViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="bus1" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus10" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus11" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus12" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus13" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus14" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus15" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus16" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus17" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus18" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus19" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus2" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus20" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus21" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus22" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus23" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus24" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus25" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus26" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus27" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus28" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus29" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus3" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus30" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus31" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus32" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus33" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus34" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus35" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus36" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus37" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus38" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus39" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus4" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus40" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus41" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus42" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus43" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus44" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus45" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus46" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus47" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus48" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus5" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus6" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus7" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus8" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="bus9" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="disconnected" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="setScene" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="ChannelViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ChannelViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="handleSwipeRight:" candidateClass="UISwipeGestureRecognizer"/>
+                <relationship kind="outlet" name="channel1" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel10" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel11" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel12" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel13" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel14" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel15" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel16" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel17" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel18" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel19" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel2" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel20" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel21" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel22" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel23" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel24" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel25" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel26" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel27" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel28" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel29" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel3" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel30" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel31" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel32" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel33" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel34" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel35" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel36" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel37" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel38" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel39" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel4" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel40" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel41" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel42" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel43" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel44" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel45" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel46" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel47" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel48" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel5" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel6" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel7" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel8" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="channel9" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="disconnected" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="setScene" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="IOViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/IOViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="bundleMsgsButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="disconnected" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="ipField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="largeInputBus" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="largeInputLine" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="largeInputMic" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="largeInputTape" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="largeOutputMtx" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="largeOutputStA" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="largeOutputStB" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="largeOutputStC" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="link" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="oscAddressField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="pan" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="portField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="receivingAddressField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="receivingPortField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="receivingTextView" candidateClass="UITextView"/>
+                <relationship kind="outlet" name="setScene" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="smallInputBus" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="smallInputLine" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="smallInputMic" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="smallInputTape" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="smallOutputMtx" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="smallOutputStA" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="smallOutputStB" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="smallOutputStC" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="ManagementViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ManagementViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="OLEDSwitch" candidateClass="UISwitch"/>
+                <relationship kind="outlet" name="cableStatusLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="presetMix1" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="presetMix2" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="presetMix3" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="presetMix4" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="presetMix5" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="presetMix6" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="setScene" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
         <simulatedOrientationMetrics key="orientation" orientation="landscapeRight"/>

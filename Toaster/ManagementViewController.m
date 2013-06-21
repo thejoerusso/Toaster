@@ -28,29 +28,28 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [Utils getInstance];//this starts rscMgr to check cable, is this OK?
     DataClass *dc = [DataClass getInstance];
     [dc addObserver:self
-         forKeyPath:@"cableConnected"
+         forKeyPath:@"cableStatus"
             options:NSKeyValueObservingOptionNew
             context:NULL];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
-//    // toggle disconnected UILabel if cable is unplugged
-//    DataClass *dc = [DataClass getInstance];
-//    NSLog(@"cable Status %@", dc.cableConnected);
-//    
-//    if ([dc.cableConnected isEqualToString:@"TRUE"]) {
-//        disconnected.text = @"Connected";
-//        disconnected.textColor = [UIColor greenColor];
-//    }
-//    
-//    else{
-//        disconnected.text = @"Disconnected";
-//        disconnected.textColor = [UIColor redColor];
-//
-//    }
+    DataClass *dc = [DataClass getInstance];
+    cableStatusLabel.text = dc.cableStatus;
+    
+    if ([dc.cableStatus isEqualToString:@"Connected"]) {
+        cableStatusLabel.textColor = [UIColor greenColor];
+    }
+    
+    else{
+        cableStatusLabel.textColor = [UIColor redColor];
+    }
+    
+
 }
 
 - (void)viewDidUnload
@@ -412,16 +411,16 @@
                      ofObject:(id)object
                        change:(NSDictionary *)change
                       context:(void *)context {
-    if ([keyPath isEqual: @"cableConnected"]){
+    if ([keyPath isEqual: @"cableStatus"]){
         DataClass *dc = [DataClass getInstance];
-        if ([dc.cableConnected isEqualToString:@"TRUE"]) {
-            disconnected.text = @"Connected";
-            disconnected.textColor = [UIColor greenColor];
+        cableStatusLabel.text = dc.cableStatus;
+        
+        if ([dc.cableStatus isEqualToString:@"Connected"]) {            
+            cableStatusLabel.textColor = [UIColor greenColor];
         }
         
         else{
-            disconnected.text = @"Disconnected";
-            disconnected.textColor = [UIColor redColor];
+            cableStatusLabel.textColor = [UIColor redColor];
         }
 
     }

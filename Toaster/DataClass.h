@@ -20,7 +20,7 @@
     NSString       *presetUsed;
     NSString       *linkChannelsToBusses;
     NSString       *str;
-    NSString       *cableConnected;
+    NSString       *cableStatus;
 }
 
 @property (nonatomic, retain) NSMutableArray *selectedChannels;
@@ -33,7 +33,7 @@
 @property (nonatomic, retain) NSString       *presetUsed;
 @property (nonatomic, retain) NSString       *linkChannelsToBusses;
 @property (nonatomic, retain) NSString       *str;
-@property (nonatomic, retain) NSString       *cableConnected;//this is the instance varable we want to observe
+@property (nonatomic, retain) NSString       *cableStatus;//this is the instance varable we want to observe
 
 +(DataClass*)getInstance;
 

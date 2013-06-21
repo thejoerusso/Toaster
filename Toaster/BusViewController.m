@@ -29,12 +29,6 @@
 {
     [super viewDidLoad];
     
-    // toggle disconnected UILabel if cable is unplugged
-    DataClass *dc = [DataClass getInstance];
-    if ([dc.cableConnected isEqualToString:@"TRUE"]) {
-        disconnected.hidden = YES;
-    }
-
     //self.view.backgroundColor = [UIColor viewFlipsideBackgroundColor];
 }
 

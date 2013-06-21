@@ -18,7 +18,7 @@
 @synthesize largeInputRouting;
 @synthesize smallOutputRoutings;
 @synthesize largeOutputRoutings;
-@synthesize cableConnected; //this is the instance variable we want to observe
+@synthesize cableStatus; //this is the instance variable we want to observe
 @synthesize str;
 
 static DataClass *instance = nil;
@@ -45,7 +45,7 @@ static DataClass *instance = nil;
         largeOutputRoutings  = [[NSMutableArray alloc] initWithObjects:nil];
         smallInputRouting    = @"0";
         largeInputRouting    = @"3";
-        cableConnected       = @"FALSE";
+        cableStatus       = @"*Disconnected*";
 
     }
     return self;

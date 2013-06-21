@@ -484,18 +484,6 @@
 {
     [super viewDidLoad];
     
-    // toggle disconnected UILabel if cable is unplugged
-    DataClass *dc = [DataClass getInstance];
-    
-
-    if ([dc.cableConnected isEqualToString:@"TRUE"]) {
-        disconnected.hidden = YES;
-    }
-    
-    if ([dc.cableConnected isEqualToString:@"FALSE"]) {
-        disconnected.hidden = NO;
-    }
- 
 }
 
 - (void)viewDidUnload
