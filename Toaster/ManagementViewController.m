@@ -80,7 +80,7 @@
         
     }
     else {
-        toggleOLED = @"0";  // sleep        
+        toggleOLED = @"2";  // sleep
     }
     
     NSString *commandString = @"";
